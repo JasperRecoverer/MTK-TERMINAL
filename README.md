@@ -162,8 +162,6 @@ SMF Performance Engine runs on passion, late nights, and pure curiosity. While e
 
 - 🔧 **Repository:** https://github.com/JasperRecoverer/MTK-TERMINAL
 
-**Jasper Bantugan**
-
 Whether it's **gaming, daily use, or battery saving** — one command switches your whole device profile.
 
 
