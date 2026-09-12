@@ -44,9 +44,12 @@ Whether it's **gaming, daily use, or battery saving** — one command switches y
 
 ![SMF Performance Engine](s2.jpg)
 
+
 ### 🛡️ Safety & Restore
-- **Engine Restore** — snapshot-based revert of every applied setting, restoring original values.
-- **Boot Persistence** — replays your applied profile from `/data/adb/service.d/perfeng_boot.sh` after each reboot.
+
+* **Engine Restore** — snapshot-based revert of all applied settings, restoring their original values.
+* **Boot Persistence** — automatically reapplies your active profile from `/data/adb/service.d/perfeng_boot.sh` after every reboot.
+* **Bootloop Protection** — built-in two-boot fail-safe: if the device reboots twice within 120 seconds, the boot script automatically deletes itself, allowing the system to boot normally again.
 
 ---
 
