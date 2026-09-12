@@ -89,11 +89,6 @@ python PERF-MTK.py
 
 ### 🏠 Widget Quick Launch (Termux:Widget)
 
-Launch the engine directly from your home screen with a single tap using **Termux:Widget**.
-
-
-### 🏠 Widget Quick Launch (Termux:Widget)
-
 Launch the engine from your home screen with a single tap:
 
 1. Install **Termux:Widget** from F-Droid.
