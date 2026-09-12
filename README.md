@@ -147,13 +147,14 @@ chmod +x ~/.shortcuts/PERF-MTK.py
 
 ---
 
-## 💖 Support the Project
+## ☕ Buy the Code a Coffee
+SMF Performance Engine runs on passion, late nights, and pure curiosity. While every line of code will forever stay free and accessible, here is how you can help keep the engine running:
 
-SMF Performance Engine is developed and maintained in my free time. While it will always remain **free and open**, you can show your support by:
+🌟 Drop a Star: Smash that GitHub ⭐ to put us on the community map.
 
-- ⭐ **Starring** the GitHub repository
-- 🤝 **Sharing** the project with others
-- 📬 Reaching out for feedback or collaboration
+⚡ Amplify: Pass the repo link to your friends and server communities.
+
+💡 Join the Conversation: Send over your feature wishlists, bug spots, or collab proposals.
 
 ---
 
@@ -161,7 +162,7 @@ SMF Performance Engine is developed and maintained in my free time. While it wil
 
 - 🔧 **Repository:** https://github.com/JasperRecoverer/MTK-TERMINAL
 
-Made with ❤️ by **Jasper Bantugan** 🇵🇭
+**Jasper Bantugan**
 
 Whether it's **gaming, daily use, or battery saving** — one command switches your whole device profile.
 
@@ -172,7 +173,3 @@ Special thanks to the people and projects whose guidance and inspiration helped 
 
 * **John Dave** — For guidance and support with the CPU and GPU tuning modules.
 * **Rowjik – Mitsu Battery** — For the inspiration behind the battery-saving implementation.
-
----
-
-Made with ❤️ by **Jasper Bantugan** 🇵🇭
