@@ -79,35 +79,32 @@ python3 eng.py
 
 Launch the engine directly from your home screen with a single tap using **Termux:Widget**.
 
-#### 1. Install Termux:Widget
 
-Install **Termux:Widget** from [F-Droid](https://f-droid.org/packages/com.termux.widget/).
+### 🏠 Widget Quick Launch (Termux:Widget)
 
-#### 2. Create the shortcut script
+Launch the engine from your home screen with a single tap:
 
-Open Termux and run:
+1. Install **Termux:Widget** from F-Droid.
+2. Create a shortcut script in Termux:
 
+```bash
 mkdir -p ~/.shortcuts
-
-cat > ~/.shortcuts/eng.sh <<'EOF'
+cat > ~/.shortcuts/PERF-MTK.py <<'EOF'
 #!/data/data/com.termux/files/usr/bin/sh
-python3 ~/SMF-Performance-Engine/eng.py
+python3 ~/MTK-TERMINAL/PERF-MTK.py
 EOF
+chmod +x ~/.shortcuts/PERF-MTK.py
+```
 
-chmod +x ~/.shortcuts/eng.sh
-This creates a shortcut named `engine.sh` that launches `eng.py`.
+3. **Hold** (long-press) an empty area on your home screen → tap **Widgets**.
+4. Scroll to find **Termux** → tap the **Termux 1x1** widget.
+5. Pick **`PERF-MTK.py`** from the popup menu → done, the widget is now on your home screen. Tap it anytime to launch.
 
-#### 3. Add the Termux:Widget to your home screen
+> Root note: applying tweaks requires root. On your first apply, grant the **Magisk SuperUser** prompt (once is enough, so the widget works without interruption).
 
-1. Long-press an empty area on your home screen.
-2. Tap **Widgets**.
-3. Find **Termux** in the widget list.
-4. Select the **Termux 1×1** widget.
-5. Choose `engine.sh` from the shortcut list.
-6. The widget will now appear on your home screen.
-7. Tap the widget anytime to launch the engine.
+> 📌 **How it works:** Nothing outside your Termux folder is written until you apply a profile. On first apply, the engine auto-creates its boot replay script at `/data/adb/service.d/perfeng_boot.sh` (requires root) and its snapshot state — everything is reversible from `[06] Engine Restore`.
 
-> **Note:** The shortcut may appear as `engine.sh` rather than `eng.py`, since `engine.sh` is the launcher script.
+---
 
 ## 📖 Menu
 
