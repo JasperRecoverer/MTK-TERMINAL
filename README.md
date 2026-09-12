@@ -161,3 +161,15 @@ SMF Performance Engine is developed and maintained in my free time. While it wil
 Made with ❤️ by **Jasper Bantugan** 🇵🇭
 
 Whether it's **gaming, daily use, or battery saving** — one command switches your whole device profile.
+
+
+## 🙏 Credits & Thanks
+
+Special thanks to the people and projects whose guidance and inspiration helped make this tool possible:
+
+* **John Dave** — For guidance and support with the CPU and GPU tuning modules.
+* **Rowjik – Mitsu Battery** — For the inspiration behind the battery-saving implementation.
+
+---
+
+Made with ❤️ by **Jasper Bantugan** 🇵🇭
