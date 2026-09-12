@@ -1,6 +1,3 @@
-
-![SMF Performance Engine](s1.jpg)
-
 # SMF Performance Engine
 **Unlock the full potential of your MediaTek device — right from Termux.**
 
@@ -34,6 +31,9 @@ Whether it's **gaming, daily use, or battery saving** — one command switches y
 - **GPU Control** — devfreq governor switching and GPU min/max frequency lock.
 - **CPU Management** — fine-grained per-cluster frequency handling (policy0/4/7 on Dimensity/Helio SoCs).
 
+![SMF Performance Engine](s1.jpg)
+
+
 ### 🎛️ Other Features
 - **TCP Tuning** — `tcp_*` sysctl tweaks for smoother network.
 - **Touch Boost** — raises boost behavior based on touch input.
@@ -41,6 +41,8 @@ Whether it's **gaming, daily use, or battery saving** — one command switches y
 - **Storage I/O** — I/O scheduler tuning on block devices.
 - **Advanced Rendering** — HWUI render props for smoother UI compositing.
 - **Scheduler Clamp** — `sched_util_clamp_min` raised for snappier responsiveness.
+
+![SMF Performance Engine](s2.jpg)
 
 ### 🛡️ Safety & Restore
 - **Engine Restore** — snapshot-based revert of every applied setting, restoring original values.
