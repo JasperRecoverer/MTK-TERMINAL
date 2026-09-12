@@ -54,26 +54,33 @@ Whether it's **gaming, daily use, or battery saving** — one command switches y
 
 ---
 
+
 ## 🚀 Installation & Instructions
 
 > Requires a **rooted device** (Magisk/KernelSU recommended) and **Termux**.
 
-```bash
-# Copy the engine to Termux
-cp /storage/emulated/0/eng.py ~/
+**1. Update Termux and install required packages:**
 
-# Run it
-python3 eng.py
+```bash
+pkg update && pkg upgrade
+pkg install python git
+```
+
+**2. Clone and run:**
+
+```bash
+git clone https://github.com/JasperRecoverer/MTK-TERMINAL
+cd MTK-TERMINAL
+python PERF-MTK.py
 ```
 
 **Quick Start:**
-1. Launch with `python3 eng.py`.
+1. Launch with `python PERF-MTK.py`.
 2. Press **B** for the safe **Balance** profile as your starting point.
 3. Use **A** (Performance) for gaming, **C** (Eco) when you just need battery.
 4. Explore `[03] CPU`, `[04] GPU`, `[05] Thermal`, and `[08] Other Features` as you learn what your device can handle.
 5. Anything goes wrong? Go to `[06] Engine Restore` to roll everything back.
 
-### 🏠 Widget Quick Launch (Termux:Widget)
 
 ### 🏠 Widget Quick Launch (Termux:Widget)
 
