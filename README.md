@@ -1,7 +1,7 @@
 # SMF Performance Engine
 **Unlock the full potential of your MediaTek device — right from Termux.**
 
-Version: **1.0** · Made with ❤️ by Jasper Bantugan 🇵🇭
+Version: **1.0** · Made by **Jasper Bantugan
 
 ---
 
