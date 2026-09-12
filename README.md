@@ -62,16 +62,28 @@ Whether it's **gaming, daily use, or battery saving** — one command switches y
 
 ## 🚀 Installation & Instructions
 
-> Requires a **rooted device** (Magisk/KernelSU recommended) and **Termux**.
+> Requires a **rooted device** (Magisk/KernelSU recommended) and **Termux** (F-Droid build — ang Play Store version ay hindi gagana para dito).
 
-**1. Update Termux and install required packages:**
+**Step 0 — Prepare Termux:**
 
 ```bash
 pkg update && pkg upgrade
 pkg install python git
 ```
 
-**2. Clone and run:**
+> No extra `pip` packages needed — the engine only uses Python's built-in modules.
+
+**Step 1 — Grant root in Magisk:**
+
+1. Buksan ang **Magisk app** → **Superuser** tab.
+2. Hanapin ang **Termux** sa listahan → i-toggle ang switch para i-grant ang root (once lang, forever na).
+3. I-verify kung gumana:
+   ```bash
+   su -c id
+   ```
+   Dapat makita mo ang `uid=0(root)` sa output.
+
+**Step 2 — Clone and run:**
 
 ```bash
 git clone https://github.com/JasperRecoverer/MTK-TERMINAL
