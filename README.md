@@ -1,7 +1,7 @@
 # SMF Performance Engine
 **Unlock the full potential of your MediaTek device — right from Termux.**
 
-Version: **5.6** · Made with ❤️ by Jasper Bantugan 🇵🇭
+Version: **1.0** · Made with ❤️ by Jasper Bantugan 🇵🇭
 
 ---
 
@@ -20,7 +20,7 @@ Whether it's **gaming, daily use, or battery saving** — one command switches y
 ### ⚡ System & Performance
 - **A / B / C Profiles** — one-command presets: **Performance (A)**, **Balance (B)**, **Eco (C)** for instant mode switching.
 - **One-Tap Widget** — launch straight from your home screen via **Termux:Widget** (steps below).
-- **Thermal Override** — monkey-patches the tzone trip value (491000) to stop aggressive thermal throttling, while keeping thermal daemons running.
+- **Thermal Override** — monkey-patches the tzone trip value to stop aggressive thermal throttling, while keeping thermal daemons running.
 - **Battery Saver** — drops CPU/GPU bounds instantly for longer screen-on time.
 - **DDR Floor** — writes `set_freq` on the **EM-DVFSRC** node to hold a minimum DRAM frequency (less jank with heavy apps).
 - **FPS GO** — boosts FPS scheduler behavior for smoother frame pacing.
@@ -75,27 +75,39 @@ python3 eng.py
 
 ### 🏠 Widget Quick Launch (Termux:Widget)
 
-Launch the engine from your home screen with a single tap:
+### 🏠 Widget Quick Launch (Termux:Widget)
 
-1. Install **Termux:Widget** from F-Droid.
-2. Create a shortcut script in Termux:
+Launch the engine directly from your home screen with a single tap using **Termux:Widget**.
 
-```bash
+#### 1. Install Termux:Widget
+
+Install **Termux:Widget** from [F-Droid](https://f-droid.org/packages/com.termux.widget/).
+
+#### 2. Create the shortcut script
+
+Open Termux and run:
+
 mkdir -p ~/.shortcuts
-cat > ~/.shortcuts/engine.sh <<'EOF'
+
+cat > ~/.shortcuts/eng.sh <<'EOF'
 #!/data/data/com.termux/files/usr/bin/sh
-python3 /storage/emulated/0/eng.py
+python3 ~/SMF-Performance-Engine/eng.py
 EOF
-chmod +x ~/.shortcuts/engine.sh
-```
 
-3. Long-press an empty area of your home screen → **Widgets** → scroll to **Termux:Widget** → add it.
-4. Pick `engine.sh` from the list shown.
-5. Tap the widget anytime and the engine opens instantly.
+chmod +x ~/.shortcuts/eng.sh
+This creates a shortcut named `engine.sh` that launches `eng.py`.
 
-> Root note: applying tweaks needs root. The first time you apply a setting, allow the **Magisk SuperUser** prompt (grant it once so the widget works without interruption).
+#### 3. Add the Termux:Widget to your home screen
 
----
+1. Long-press an empty area on your home screen.
+2. Tap **Widgets**.
+3. Find **Termux** in the widget list.
+4. Select the **Termux 1×1** widget.
+5. Choose `engine.sh` from the shortcut list.
+6. The widget will now appear on your home screen.
+7. Tap the widget anytime to launch the engine.
+
+> **Note:** The shortcut may appear as `engine.sh` rather than `eng.py`, since `engine.sh` is the launcher script.
 
 ## 📖 Menu
 
@@ -128,6 +140,6 @@ SMF Performance Engine is developed and maintained in my free time. While it wil
 
 ## 📬 Contact & Links
 
-- 🔧 **Repository:** `your-github-username/SMF-Performance-Engine` *(replace with your actual repo URL)*
+- 🔧 **Repository:** https://github.com/JasperRecoverer/MTK-TERMINAL
 
 Made with ❤️ by **Jasper Bantugan** 🇵🇭
