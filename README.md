@@ -1,3 +1,6 @@
+
+![SMF Performance Engine](s1.jpg)
+
 # SMF Performance Engine
 **Unlock the full potential of your MediaTek device — right from Termux.**
 
