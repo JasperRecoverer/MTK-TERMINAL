@@ -15,8 +15,6 @@ Whether it's **gaming, daily use, or battery saving** — one command switches y
 
 ---
 
-## ✨ Key Features
-
 ### ⚡ System & Performance
 - **A / B / C Profiles** — one-command presets: **Performance (A)**, **Balance (B)**, **Eco (C)** for instant mode switching.
 - **One-Tap Widget** — launch straight from your home screen via **Termux:Widget** (steps below).
